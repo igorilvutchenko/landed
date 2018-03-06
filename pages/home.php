@@ -67,32 +67,18 @@ require_once PATH_PARTIALS . 'header.php';
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
 					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Interdum amet non magna accumsan</h2>
-							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
+					<?php
+require_once PATH_PARTIALS . 'content.php';
+?>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Interdum felis blandit praesent sed augue</h2>
-							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
+					<?php
+require_once PATH_PARTIALS . 'content.php';
+?>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
 
@@ -105,36 +91,24 @@ require_once PATH_PARTIALS . 'header.php';
 						</header>
 						<div class="box alt">
 							<div class="row uniform">
-								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-area-chart"></span>
-									<h3>Ipsum sed commodo</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-comment"></span>
-									<h3>Eleifend lorem ornare</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u$ 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-flask"></span>
-									<h3>Cubilia cep lobortis</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-paper-plane"></span>
-									<h3>Non semper interdum</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-file"></span>
-									<h3>Odio laoreet accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="4u$ 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-lock"></span>
-									<h3>Massa arcu accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
+								<?php
+require_once PATH_PARTIALS . 'uniform.php';
+?>
+								<?php
+require_once PATH_PARTIALS . 'uniform.php';
+?>
+								<?php
+require_once PATH_PARTIALS . 'uniform.php';
+?>
+								<?php
+require_once PATH_PARTIALS . 'uniform.php';
+?>
+								<?php
+require_once PATH_PARTIALS . 'uniform.php';
+?>
+								<?php
+require_once PATH_PARTIALS . 'uniform.php';
+?>
 							</div>
 						</div>
 						<footer class="major">
